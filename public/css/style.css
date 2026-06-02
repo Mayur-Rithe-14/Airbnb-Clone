@@ -212,20 +212,26 @@ body {
   height: 40vh;
 }
 
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 @media (max-width: 768px) {
-  .navbar {
-    height: auto;
-    padding: 0.5rem 1rem;
+  .navbar-collapse {
+    display: none;
   }
 
-  .navbar-collapse {
+  .navbar-collapse.show {
+    display: block;
     background: white;
     padding: 1rem;
-    border-radius: 1rem;
+    margin-top: 1rem;
+    border-radius: 12px;
   }
 
   .navbar-nav {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   .nav-link {
@@ -277,8 +283,8 @@ body {
   }
 
   .f-info {
-    height: auto;
     padding: 1rem;
+    height: auto;
   }
 
   .f-info-socials,
