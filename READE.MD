@@ -174,7 +174,7 @@ http://localhost:8080/listings
 
 ### Home Page
 
-![Home Page](./screenshots/home-page.png)
+![Home Page](./screenshots/Home-Page.png)
 
 ### Listing Details Page
 
