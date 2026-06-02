@@ -198,3 +198,100 @@
   -webkit-transition: background-position 0.7s;
   transition: background-position 0.7s;
 }
+
+/* Airbnb Review Card */
+
+.airbnb-review-card {
+  background: white;
+  border: 1px solid #ebebeb;
+  border-radius: 16px;
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.25s ease;
+}
+
+.airbnb-review-card:hover {
+  border-color: #d0d0d0;
+}
+
+/* Top Section */
+
+.review-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* User Info */
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Rating */
+
+.review-stars {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Review Text */
+
+.review-text {
+  color: #444;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* Delete Button */
+
+.review-delete {
+  background: transparent;
+  border: none;
+  color: #717171;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.review-delete:hover {
+  color: #fe424d;
+}
+
+@media (max-width: 768px) {
+  .airbnb-review-card {
+    padding: 1rem;
+  }
+
+  .review-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .user-avatar {
+    width: 42px;
+    height: 42px;
+  }
+
+  .review-stars {
+    margin-left: 3rem;
+  }
+}
