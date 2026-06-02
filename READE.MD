@@ -224,7 +224,7 @@ Mayur Rithe
 Full-Stack Developer
 
 - GitHub: https://github.com/Mayur-Rithe-14
-- LinkedIn: https://www.linkedin.com/feed/
+- LinkedIn: https://www.linkedin.com/in/mayur-rithe-ab527a306/
 
 ---
 
