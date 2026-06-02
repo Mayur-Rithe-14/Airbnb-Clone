@@ -282,6 +282,14 @@ body {
     height: 250px;
   } */
 
+  .show-img,
+  .card-img-top {
+    width: 100%; /* Spans full width of the card padding */
+    height: 250px; /* Set a reasonable height for mobile views */
+    object-fit: cover; /* This is the magic property that prevents stretching */
+    border-radius: 12px; /* Keeps your nice rounded corners intact */
+  }
+
   .f-info {
     padding: 1rem;
     height: auto;
