@@ -134,6 +134,10 @@ The application provides secure authentication, image uploads, listing managemen
 
 ![Listings Page](./screenshots/Edit-Page.png)
 
+### 📋 Review Listing
+
+![Listings Page](./screenshots/Review.png)
+
 ### 🔑 Login Page
 
 ![Login Page](./screenshots/Login-Page.png)
