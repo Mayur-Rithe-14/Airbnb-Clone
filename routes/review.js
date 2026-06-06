@@ -16,8 +16,8 @@ const {
 // Post Review Route
 router.post(
   "/",
-  validateReview,
   isLoggedIn,
+  validateReview,
   wrapAsync(reviewController.createReview),
 );
 
